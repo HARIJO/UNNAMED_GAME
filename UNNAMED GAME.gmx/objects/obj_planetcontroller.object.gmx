@@ -26,15 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>/// Initialization of variables
-<<<<<<< HEAD
 //toplel
-=======
- 
->>>>>>> origin/master
 grav = 1;
 fric = 4;
-
-//kek
 </string>
           </argument>
         </arguments>
