@@ -6,15 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_solid</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_solid</object>
+    <object>objects\obj_planetcontroller</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_testplanet</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
