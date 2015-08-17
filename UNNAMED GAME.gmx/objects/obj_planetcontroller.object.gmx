@@ -26,9 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>/// Initialization of variables
-
+ 
 grav = 1;
 fric = 4;
+
+//kek
 </string>
           </argument>
         </arguments>
