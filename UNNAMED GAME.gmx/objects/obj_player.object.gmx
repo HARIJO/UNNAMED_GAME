@@ -61,6 +61,8 @@ var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
 var ukey = keyboard_check(ord("W"));
 
+var spacekey = keyboard_check_pressed(ord(" "));
+
 // Check for ground
 if (place_meeting(x, y+1, obj_solid)) {
     vspd = 0;
@@ -130,6 +132,14 @@ if (place_meeting(x, y+vspd, obj_solid)) {
 
 // Move vertically
 y += vspd;
+
+
+// Quack
+
+if (spacekey)
+{
+    audio_play_sound(Quack, 1, false);
+}
 </string>
           </argument>
         </arguments>
