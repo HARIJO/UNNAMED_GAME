@@ -15,6 +15,7 @@
     <object>objects\obj_player</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_planetcontroller</object>
+    <object>objects\jemoeder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_testplanet</room>
