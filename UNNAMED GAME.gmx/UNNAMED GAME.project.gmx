@@ -4,22 +4,26 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\Quack</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_solidmask</sprite>
+    <sprite>sprites\spr_solidmasksmall</sprite>
+    <sprite>sprites\spr_pointer</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\tileset_test</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_solid</object>
-    <object>objects\obj_planetcontroller</object>
+    <object>objects\obj_Player</object>
+    <object>objects\obj_Solid</object>
+    <object>objects\obj_planetTest</object>
+    <object>objects\obj_pointer</object>
+    <object>objects\obj_client</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_testplanet</room>
+    <room>rooms\room_planetTest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
